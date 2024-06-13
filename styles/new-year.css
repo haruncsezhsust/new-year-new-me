@@ -14,7 +14,7 @@
 }
 .header-container{
     text-align: right;
-    padding: 215px 230px 166px 0;
+    padding: 150px;
     width: 525px;
     margin-left: auto;
     margin-right: 0;
@@ -38,9 +38,49 @@
     color: white;
     padding: 20px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     background: #F15B22;
 }
+
+/* Own Section - My-Expectations styles*/
+.my-expectations{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0;
+    
+}
+.expectations-details{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+.expectations-companies table{
+    table-layout: fixed;
+    width: 100%;
+}
+.company-name{
+    border-bottom: 1px solid #F15B22;
+}
+.expectations-companies table td{
+    padding-bottom: 50px;
+}
+.expectations-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.my-expectations .description-text{
+    width: 525px;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* Failure section here */
@@ -49,14 +89,10 @@
     display: flex;
     align-items: center;
     gap: 80px;
-    margin-top:130px;
-    margin-left: 205px;
     justify-content: center;
 
 }
-.failure-image img{
-    
-}
+
 .failure-article{
     width: 416px;
 }
@@ -68,7 +104,135 @@
 .failures .description-text{
     margin-bottom: 16px;
 }
-.faulire-lists li{
+.failure-lists li{
     list-style: none;
     margin-bottom: 8px;
+}
+.failure-lists li img{
+    vertical-align: middle;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+
+
+/* My Plans section */
+
+.my-plans{
+    margin-top: 130px;
+    text-align: center;
+}
+.plans{
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+}
+.my-plans-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+.plan-image{
+    margin-bottom: 18px;
+}
+.plans-title{
+    margin-bottom: 16px;
+}
+
+/* Positive Mind section */
+.positive-mind{    
+    margin: 130px auto;
+    max-width: 1140px;
+ 
+
+
+}
+.positive-mind-image-and-content{
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    padding: 60px 65px;
+    border-radius: 8px;
+}
+
+.positive-mind-title{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    width: 459px;
+    margin-bottom: 24px;
+
+}
+.positive-mind .btn-primary{
+    background-color: white;
+    color: #F15B22;
+    padding: 20px 36px;
+
+}
+
+
+/* footer styles here */
+.footer{
+    background-color: #151414;
+    padding: 130px 0;
+}
+
+.footer-content{
+    color: rgb(223, 214, 214);
+    max-width: 1140px;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info .description-text{
+    color: rgb(223, 214, 214);
+    max-width: 485px;
+    margin-bottom: 24px;
+
+}
+.footer-info{
+
+}
+
+.footer-title{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-icons li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+.footer-email, .footer-phone{
+    font-size: 1rem;
+    margin-bottom: 16px;
+
+}
+
+.footer-subscribe input[type='email']{
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding: 21px;
+    border-radius: 8px;
+    /* width: 100%; */
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(223, 214, 214);
+    border: 1px solid rgb(223, 214, 214);
+}
+
+.footer-subscribe .footer-title{
+    font-size: 25px;
+}
+input[type="email"]::placeholder{
+    color: rgb(223, 214, 214);
+}
+
+.footer .btn-primary{
+    background-color: #F15B22;
+    color: white;
 }
