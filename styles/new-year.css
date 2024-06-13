@@ -45,39 +45,35 @@
 /* Own Section - My-Expectations styles*/
 .my-expectations{
     max-width: 1140px;
-    margin: 0 auto;
-    padding: 130px 0;
+    display: flex;
+    margin: 130px auto;
+    gap: 100px;
+    align-items: center;
     
 }
-.expectations-details{
-    display: flex;
-    gap: 100px;
-    justify-content: space-between;
-}
-.expectations-companies table{
-    table-layout: fixed;
-    width: 100%;
-}
-.company-name{
-    border-bottom: 1px solid #F15B22;
-}
-.expectations-companies table td{
-    padding-bottom: 50px;
+.expectations-info{
+    text-align: left;
 }
 .expectations-title{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 16px;
 }
-.my-expectations .description-text{
-    width: 525px;
+.expectations-info .description-text{
+    max-width: 425px;
 }
 
-
-
-
-
-
+.companies{
+    display: flex;
+    gap: 100px;
+}
+.company img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.company-text{
+    font-size: 0.6rem;
+}
 
 
 
@@ -142,9 +138,6 @@
 .positive-mind{    
     margin: 130px auto;
     max-width: 1140px;
- 
-
-
 }
 .positive-mind-image-and-content{
     background-image: url('../images/watch.png'), url('../images/gradient2.png');
